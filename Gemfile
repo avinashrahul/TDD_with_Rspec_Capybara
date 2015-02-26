@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'database_cleaner'
 group :development, :test  do
 	gem 'rspec-rails'
 end
